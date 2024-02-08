@@ -8,7 +8,8 @@ import { FaArrowRight } from "react-icons/fa";
 export default function LoginSections() {
     return (
         <>
-            <div className="p-6 w-[105%] hover:border-gray-400 mt-[30px] rounded-xl shadow-lg flex bg-white border-gray-300 border-[0.5px]">
+            <a href="/LoginTypes/Teacher">
+            <div className="p-6  hover:scale-[103%] w-[105%] hover:border-gray-400 mt-[30px] rounded-xl shadow-lg flex bg-white border-gray-300 border-[0.5px]">
                 <svg className="ml-[-5px] scale-[200%] h-16" fill="none" viewBox="0 0 104 104">
                     <g filter="url(#School3D_svg__filter0_d_1431_1204)">
                         <path fill="#FFAB00"
@@ -50,7 +51,9 @@ export default function LoginSections() {
                     </div>
                 </div>
             </div>
-            <div className="p-6 w-[105%] mt-[30px] rounded-xl shadow-lg flex bg-white hover:border-gray-400 border-gray-300 border-[0.5px]">
+            </a>
+            <a href="/LoginTypes/Teacher/">
+            <div className="p-6 w-[105%] hover:scale-[103%] mt-[30px] rounded-xl shadow-lg flex bg-white hover:border-gray-400 border-gray-300 border-[0.5px]">
                 <svg className="ml-[-5px] scale-[200%] h-16" fill="none" viewBox="0 0 104 104">
                     <g filter="url(#Student3D_svg__filter0_d)">
                         <path stroke="#008392" stroke-width="3.25"
@@ -92,48 +95,54 @@ export default function LoginSections() {
                     </div>
                 </div>
             </div>
+            </a>
 
-            <div className="p-6 w-[105%] mt-[30px] hover:border-gray-400 rounded-xl shadow-lg flex bg-white border-gray-300 border-[0.5px]">
-                <svg className="ml-[-5px] scale-[200%] h-16" fill="none" viewBox="0 0 104 104">
-                    <g filter="url(#Family3D_svg__filter0_d)">
-                        <path fill="#D75674"
-                              d="M61.75 39a4.875 4.875 0 100-9.75 4.875 4.875 0 000 9.75zM52 48.75a6.5 6.5 0 016.5-6.5H65a6.5 6.5 0 016.5 6.5v10.563h-3.25V71.5A3.25 3.25 0 0165 74.75h-9.75V59.312H52V48.75z"></path>
-                        <path fill="#FE6784"
-                              d="M43.875 42.25a4.875 4.875 0 100-9.75 4.875 4.875 0 000 9.75zM48.75 74.75v-6.5h6.5l-7.74-21.672a1.625 1.625 0 00-1.53-1.078h-4.21c-.687 0-1.3.432-1.53 1.078L32.5 68.25H39v3.25a3.25 3.25 0 003.25 3.25h6.5z"></path>
-                        <path fill="#FFAEC0"
-                              d="M52.813 53.625a3.25 3.25 0 100-6.5 3.25 3.25 0 000 6.5zM45.5 61.75a6.5 6.5 0 016.5-6.5h1.625a6.5 6.5 0 016.5 6.5v4.41h-3.25v8.59H48.75v-8.59H45.5v-4.41z"></path>
-                    </g>
-                    <defs>
-                        <filter id="Family3D_svg__filter0_d" width="120" height="120" x="-16" y="0"
-                                color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
-                            <feColorMatrix in="SourceAlpha" result="hardAlpha"
-                                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
-                            <feOffset dx="-8" dy="8"></feOffset>
-                            <feGaussianBlur stdDeviation="4"></feGaussianBlur>
-                            <feColorMatrix
-                                values="0 0 0 0 0.690196 0 0 0 0 0.266667 0 0 0 0 0.392157 0 0 0 0.4 0"></feColorMatrix>
-                            <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
-                            <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
-                        </filter>
-                    </defs>
-                </svg>
-                <div className="flex items-center justify-between w-full ml-4">
-                    <div>
-                        <div className="text-xl font-medium text-left text-slate-600">Parents Account</div>
-                        <p className="text-slate-600 text-left">Im a Parent/Guardian</p>
+            <a href="/LoginTypes/Teacher/">
+                <div
+                    className="p-6 hover:scale-[103%] w-[105%] mt-[30px] hover:border-gray-400 rounded-xl shadow-lg flex bg-white border-gray-300 border-[0.5px]">
+                    <svg className="ml-[-5px] scale-[200%] h-16" fill="none" viewBox="0 0 104 104">
+                        <g filter="url(#Family3D_svg__filter0_d)">
+                            <path fill="#D75674"
+                                  d="M61.75 39a4.875 4.875 0 100-9.75 4.875 4.875 0 000 9.75zM52 48.75a6.5 6.5 0 016.5-6.5H65a6.5 6.5 0 016.5 6.5v10.563h-3.25V71.5A3.25 3.25 0 0165 74.75h-9.75V59.312H52V48.75z"></path>
+                            <path fill="#FE6784"
+                                  d="M43.875 42.25a4.875 4.875 0 100-9.75 4.875 4.875 0 000 9.75zM48.75 74.75v-6.5h6.5l-7.74-21.672a1.625 1.625 0 00-1.53-1.078h-4.21c-.687 0-1.3.432-1.53 1.078L32.5 68.25H39v3.25a3.25 3.25 0 003.25 3.25h6.5z"></path>
+                            <path fill="#FFAEC0"
+                                  d="M52.813 53.625a3.25 3.25 0 100-6.5 3.25 3.25 0 000 6.5zM45.5 61.75a6.5 6.5 0 016.5-6.5h1.625a6.5 6.5 0 016.5 6.5v4.41h-3.25v8.59H48.75v-8.59H45.5v-4.41z"></path>
+                        </g>
+                        <defs>
+                            <filter id="Family3D_svg__filter0_d" width="120" height="120" x="-16" y="0"
+                                    color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                <feColorMatrix in="SourceAlpha" result="hardAlpha"
+                                               values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
+                                <feOffset dx="-8" dy="8"></feOffset>
+                                <feGaussianBlur stdDeviation="4"></feGaussianBlur>
+                                <feColorMatrix
+                                    values="0 0 0 0 0.690196 0 0 0 0 0.266667 0 0 0 0 0.392157 0 0 0 0.4 0"></feColorMatrix>
+                                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+                                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
+                            </filter>
+                        </defs>
+                    </svg>
+                    <div className="flex items-center justify-between w-full ml-4">
+                        <div>
+                            <div className="text-xl font-medium text-left text-slate-600">Parents Account</div>
+                            <p className="text-slate-600 text-left">Im a Parent/Guardian</p>
+                        </div>
+                        <div>
+                            <p className="text-pink-500 hover:scale-[200%] text-sm scale-[150%]"><FaArrowRight/></p>
+                        </div>
                     </div>
-                    <div>
-                        <p className="text-pink-500 hover:scale-[200%] text-sm scale-[150%]"><FaArrowRight/></p>
-                    </div>
+
                 </div>
+            </a>
 
-            </div>
             <div>
                 <p className="font-bold mt-3 text-slate-600 text-xs text-left">
                     This project is meant to be a recreation of "Toddle".
                     ©Teacher Tools Private Limited. All Rights Reserved.
-                    Original Website found at:  <a className='text-blue-300' href="https://web.toddleapp.com/?type=loginHome&usertype=staff">https://web.toddleapp.com/?type=loginHome&usertype=staff</a>
+                    Original Website found at: <a className='text-blue-300'
+                                                  href="https://web.toddleapp.com/?type=loginHome&usertype=staff">https://web.toddleapp.com/?type=loginHome&usertype=staff</a>
                 </p>
             </div>
         </>

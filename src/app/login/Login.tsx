@@ -1,8 +1,8 @@
 import Image from "next/image";
 import MessageNotification from './MessageNotification'
 import logo from '/src/img/logo.svg';
-import LoginSections from "@/app/LoginSections";
-import FullLoginSection from "@/app/FullLoginSection";
+import LoginSections from "@/app/login/LoginSections";
+import FullLoginSection from "@/app/login/FullLoginSection";
 
 export default function Login() {
     return (

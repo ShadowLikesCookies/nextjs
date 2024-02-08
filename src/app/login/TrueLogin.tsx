@@ -1,8 +1,8 @@
 import Image from "next/image";
 import MessageNotification from './MessageNotification'
 import logo from '/src/img/logo.svg';
-import Loginbanner from "@/app/LoginBanner";
-import Login from "@/app/Login";
+import Loginbanner from "@/app/login/LoginBanner";
+import Login from "@/app/login/Login";
 
 
 
