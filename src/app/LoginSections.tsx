@@ -3,7 +3,7 @@ import MessageNotification from './MessageNotification'
 import logo from '/src/img/logo.svg';
 import { FaArrowRight } from "react-icons/fa";
 
-import { Link } from 'react-router-dom';
+
 
 export default function LoginSections() {
     return (
@@ -88,7 +88,7 @@ export default function LoginSections() {
                         <p className="text-slate-600 text-left">Im an MYP/IB Student</p>
                     </div>
                     <div>
-                        <p className="text-blue-400 hover:scale-[200%] text-sm scale-[150%]"><Link to="login2"><FaArrowRight/></Link></p>
+                        <p className="text-blue-400 hover:scale-[200%] text-sm scale-[150%]"><FaArrowRight/></p>
                     </div>
                 </div>
             </div>
