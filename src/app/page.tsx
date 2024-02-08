@@ -10,9 +10,9 @@ export default function Home() {
         /**<MessageNotification message="You Have Mail, Make sure to read it"/> **\
          *
          */
-        <>
-            <TrueLogin/>
-        </>
+
+        <TrueLogin/>
+
 
     )
 }

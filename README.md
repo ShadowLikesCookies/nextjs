@@ -1,3 +1,6 @@
+ALL RIGHTS OF THIS PROJECT ARE TO ©Teacher Tools Private Limited. All Rights Reserved.
+. THIS PROJECT IS MEANT TO BE A RECREATION OF TODDLE IN MY OWN STYLE.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

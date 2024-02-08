@@ -3,10 +3,12 @@ import MessageNotification from './MessageNotification'
 import logo from '/src/img/logo.svg';
 import { FaArrowRight } from "react-icons/fa";
 
+import { Link } from 'react-router-dom';
+
 export default function LoginSections() {
     return (
         <>
-            <div className="p-6 w-[105%] mt-[30px] rounded-xl shadow-lg flex bg-white border-gray-300 border-[0.5px]">
+            <div className="p-6 w-[105%] hover:border-gray-400 mt-[30px] rounded-xl shadow-lg flex bg-white border-gray-300 border-[0.5px]">
                 <svg className="ml-[-5px] scale-[200%] h-16" fill="none" viewBox="0 0 104 104">
                     <g filter="url(#School3D_svg__filter0_d_1431_1204)">
                         <path fill="#FFAB00"
@@ -44,11 +46,11 @@ export default function LoginSections() {
                         <p className="text-slate-600 text-left">Im a Teacher/Admin/It-Specialist</p>
                     </div>
                     <div>
-                        <p className="text-blue-300 text-sm scale-[150%]"><FaArrowRight/></p>
+                        <p className="text-yellow-500 hover:scale-[200%] text-sm scale-[150%]"><FaArrowRight/></p>
                     </div>
                 </div>
             </div>
-            <div className="p-6 w-[105%] mt-[30px] rounded-xl shadow-lg flex bg-white border-gray-300 border-[0.5px]">
+            <div className="p-6 w-[105%] mt-[30px] rounded-xl shadow-lg flex bg-white hover:border-gray-400 border-gray-300 border-[0.5px]">
                 <svg className="ml-[-5px] scale-[200%] h-16" fill="none" viewBox="0 0 104 104">
                     <g filter="url(#Student3D_svg__filter0_d)">
                         <path stroke="#008392" stroke-width="3.25"
@@ -82,16 +84,16 @@ export default function LoginSections() {
                 </svg>
                 <div className="flex items-center justify-between w-full ml-[15px]">
                     <div>
-                        <div className="text-xl font-medium text-left text-slate-600">Student Account</div>
+                        <div className="text-xl font-medium text-left text-slate-600 ">Student Account</div>
                         <p className="text-slate-600 text-left">Im an MYP/IB Student</p>
                     </div>
                     <div>
-                        <p className="text-blue-300 text-sm scale-[150%]"><FaArrowRight/></p>
+                        <p className="text-blue-400 hover:scale-[200%] text-sm scale-[150%]"><Link to="login2"><FaArrowRight/></Link></p>
                     </div>
                 </div>
             </div>
 
-            <div className="p-6 w-[105%] mt-[30px] rounded-xl shadow-lg flex bg-white border-gray-300 border-[0.5px]">
+            <div className="p-6 w-[105%] mt-[30px] hover:border-gray-400 rounded-xl shadow-lg flex bg-white border-gray-300 border-[0.5px]">
                 <svg className="ml-[-5px] scale-[200%] h-16" fill="none" viewBox="0 0 104 104">
                     <g filter="url(#Family3D_svg__filter0_d)">
                         <path fill="#D75674"
@@ -122,9 +124,17 @@ export default function LoginSections() {
                         <p className="text-slate-600 text-left">Im a Parent/Guardian</p>
                     </div>
                     <div>
-                        <p className="text-blue-300 text-sm scale-[150%]"><FaArrowRight/></p>
+                        <p className="text-pink-500 hover:scale-[200%] text-sm scale-[150%]"><FaArrowRight/></p>
                     </div>
                 </div>
+
+            </div>
+            <div>
+                <p className="font-bold mt-3 text-slate-600 text-xs text-left">
+                    This project is meant to be a recreation of "Toddle".
+                    ©Teacher Tools Private Limited. All Rights Reserved.
+                    Original Website found at:  <a className='text-blue-300' href="https://web.toddleapp.com/?type=loginHome&usertype=staff">https://web.toddleapp.com/?type=loginHome&usertype=staff</a>
+                </p>
             </div>
         </>
 
